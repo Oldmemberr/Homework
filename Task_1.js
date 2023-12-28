@@ -8,7 +8,8 @@ const Car = {
 getObjectValues(Car);
 
 function getObjectValues(obj) {
-    for (var key in obj) {
-        console.log(key + ' = ' + obj[key]);
+    for (let key in obj)
+        if (Car.hasOwnProperty(key)){
+        console.log(key);
     }
 }

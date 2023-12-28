@@ -1,5 +1,2 @@
-const myObj = newObject();
+const myObj = Object.create(null)
 
-function newObject() {
-    return new Object();
-}
