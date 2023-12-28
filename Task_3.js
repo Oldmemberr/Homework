@@ -1,2 +1,3 @@
-const myObj = Object.create(null)
-
+const myObj = function ()
+    {Object.create(null)
+        console.log(myObj)}

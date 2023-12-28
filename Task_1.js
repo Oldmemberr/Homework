@@ -9,7 +9,7 @@ getObjectValues(Car);
 
 function getObjectValues(obj) {
     for (let key in obj)
-        if (Car.hasOwnProperty(key)){
+        if (obj.hasOwnProperty(key)){
         console.log(key);
     }
 }
